@@ -8,38 +8,38 @@ tagline: Supporting tagline
 <div class="hero-unit">
         <h1>East Asian Film Society</h1>
         <p>The East Asian Film Society is a non-profit organization that organizes film screenings for non-profit and educational organizations in the Pacific Northwest and Hawaii. We aim to offer the most affordable way of bringing a wide range of East Asian film to as large an audience as possible.</p>
-        <p><a class="btn btn-primary btn-large" href="/about.html">Learn more &raquo;</a></p>
+        <p><a class="btn btn-primary btn-large" href="about.html">Learn more &raquo;</a></p>
       </div>
 <div class="row">
         <div class="span4">
           <h2>Rights Management</h2>
           <p>We strive to take the guess work out of the increasingly complicated and confusing task of arranging film screenings so you can focus on the films themselves!</p>
-          <p><a class="btn" href="/about.html#rights">View details &raquo;</a></p>
+          <p><a class="btn" href="about.html#rights">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Promotional Material</h2>
           <p>We can save you time and effort by providing print-quality graphics, accurate information, and extensive background material for each film we screen!</p>
-          <p><a class="btn" href="/about.html#promo">View details &raquo;</a></p>
+          <p><a class="btn" href="about.html#promo">View details &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Affordable Pricing</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="/about.html#price">View details &raquo;</a></p>
+          <p><a class="btn" href="about.html#price">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Guest Lectures</h2>
           <p>Use our network of academic experts and film professionals to provide your film screening with a one of a kind introduction.</p>
-          <p><a class="btn" href="/about.html#lecture">View details &raquo;</a></p>
+          <p><a class="btn" href="about.html#lecture">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Past Programs</h2>
           <p>See a sampling of our past programs to get an idea of the type of films we have worked and the types of promotional materials we provide. We are more than happy to bring any of these screenings to your campus or organization!</p>
-          <p><a class="btn" href="/screenings.html">View details &raquo;</a></p>
+          <p><a class="btn" href="screenings.html">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Contact Us!</h2>
           <p>Whether you would like to contact us to get a quote for our services or would just like to join our newsletter to stay informed of upcoming events, please check out the contact page. </p>
-          <p><a class="btn" href="/contact.html">View details &raquo;</a></p>
+          <p><a class="btn" href="contact.html">View details &raquo;</a></p>
         </div>
       </div>
 
