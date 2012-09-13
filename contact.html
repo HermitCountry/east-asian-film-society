@@ -12,14 +12,29 @@ group: navigation
           <p>Interested in keeping informed of the latest screenings in your area? Join our mailing list and we will keep you updated of any events we are holding in your area. Just enter your email address and location. We will not share your email address with any third parties and will only use it to inform you of upcoming events.  
           </p>
 
-            <form class="navbar-form">
-              <input class="span3" type="text" placeholder="Email">
-              <select class="span2">
-                <option value="Seattle">Seattle, WA</option>
-                <option value="Honolulu">Honolulu, HI</option>
-                <option value="Portland">Portland, OR</option>
-              </select>
-              <button type="submit" class="btn">Join</button>
+            <form class="form-horizontal">
+              <fieldset>
+                <legend>Join the Mailing List</legend>
+              <div class="control-group">  
+                <label class="control-label" for="email">Email</label>  
+                <div class="controls">  
+                  <input type="email" class="input-xlarge" id="email" required>  
+                </div>  
+              </div>
+              <div class="control-group">  
+                <label class="control-label" for="city">Nearest City</label>  
+                <div class="controls">  
+                  <select class="input-xlarge" id="city">  
+                    <option value="Seattle">Seattle, WA</option>
+                    <option value="Honolulu">Honolulu, HI</option>
+                    <option value="Portland">Portland, OR</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-actions"> 
+                <button type="submit" class="btn">Join</button>
+              </div>
+            </fieldset>
             </form>
   </div>
   <div class="span6">
@@ -27,31 +42,54 @@ group: navigation
           <p>If you're interested in having the EAFS organize a film screening or series of film screenings please provide the following information and we will contact you within two business days. 
           </p>
 
-            <form class="navbar-form">
-              <label for="audience">Estimated Audience Size</label>
-              <select id="audience" class="span2">
-                <option value="10">0-10</option>
-                <option value="25">10-25</option>
-                <option value="100">25-100</option>
-                <option value="200">100-200</option>
-                <option value="plus">200+</option>
-              </select>
-              <label for="screenings">Number of Screenings</label>
-              <input id="screenings" class="span1" type="number" step="1" min="1">
-              <label>Do you have a venue?</label>
-              <input type="radio" name="venue" value="venue">We have a venue<br>
-              <input type="radio" name="venue" value="novenue">We need a venue
-              <label>Nearest City</label>
-              <select class="span2">
-                <option value="Seattle">Seattle, WA</option>
-                <option value="Honolulu">Honolulu, HI</option>
-                <option value="Portland">Portland, OR</option>
-              </select>
-              <label>Additional Information</label>
-              <input class="span6" type="text">
-              <label>Your email address</label>
-              <input class="span2" type="text" placeholder="Email">
-              <button type="submit" class="btn">Get a Quote!</button>
+            <form class="form-horizontal">
+              <fieldset>
+                <legend>Get a Quote</legend>
+              <div class="control-group">  
+                <label class="control-label" for="audience">Audience Size</label>  
+                <div class="controls">  
+                <select class="input-xlarge" id="audience">  
+                    <option value="10">0-10</option>
+                    <option value="25">10-25</option>
+                    <option value="100">25-100</option>
+                    <option value="200">100-200</option>
+                    <option value="plus">200+</option>
+                  </select>
+                </div>  
+              </div>
+              <div class="control-group">  
+                <label class="control-label" for="screenings">Number of Screenings</label>
+                <div class="controls">  
+                  <input type="number" class="input-xlarge" id="screenings" step="1" min="1">  
+                </div>  
+              </div>
+              <div class="control-group">  
+                <label class="control-label" for="city">Nearest City</label>  
+                <div class="controls">  
+                  <select class="input-xlarge" id="city">  
+                    <option value="Seattle">Seattle, WA</option>
+                    <option value="Honolulu">Honolulu, HI</option>
+                    <option value="Portland">Portland, OR</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control-group">  
+                <label class="control-label" for="email">Email</label>  
+                <div class="controls">  
+                  <input type="email" class="input-xlarge" id="email" required>  
+                </div>  
+              </div>
+              <div class="control-group">  
+                <label class="control-label" for="info">Additional Info</label>  
+                <div class="controls">  
+                  <textarea class="input-xlarge" id="info" rows="3"></textarea>
+                  <p class="help-block">Leave any special requirements that weren't covered above.</p>  
+                </div>  
+              </div>
+              <div class="form-actions"> 
+                <button type="submit" class="btn">Get a Quote!</button>
+              </div>
+            </fieldset>
             </form>
   </div>
 </div>
