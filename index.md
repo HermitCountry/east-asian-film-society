@@ -22,15 +22,16 @@ tagline: Supporting tagline
           <p><a class="btn" href="about.html#promo">View details &raquo;</a></p>
        </div>
         <div class="span4">
-          <h2>Affordable Pricing</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="about.html#price">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
           <h2>Guest Lectures</h2>
-          <p>Use our network of academic experts and film professionals to provide your film screening with a one of a kind introduction.</p>
+          <p>Through our connections to academia and the film industry we are able to provide your film screenings with one of a kind introductions by Professors, graduate students, and film professionals.</p>
           <p><a class="btn" href="about.html#lecture">View details &raquo;</a></p>
         </div>
+        <div class="span4">
+          <h2>Affordable Pricing</h2>
+          <p>We are committed to bringing East Asian films to audiences and organizations as inexpensively as possible and are able to work within any budget. Please contact us to get a quote or discuss our services more.</p>
+          <p><a class="btn" href="contact.html">Get a Quote &raquo;</a></p>
+        </div>
+
         <div class="span4">
           <h2>Past Programs</h2>
           <p>See a sampling of our past programs to get an idea of the type of films we have worked and the types of promotional materials we provide. We are more than happy to bring any of these screenings to your campus or organization!</p>
@@ -39,7 +40,7 @@ tagline: Supporting tagline
         <div class="span4">
           <h2>Contact Us!</h2>
           <p>Whether you would like to contact us to get a quote for our services or would just like to join our newsletter to stay informed of upcoming events, please check out the contact page. </p>
-          <p><a class="btn" href="contact.html">View details &raquo;</a></p>
+          <p><a class="btn" href="contact.html">Contact Us! &raquo;</a></p>
         </div>
       </div>
 
